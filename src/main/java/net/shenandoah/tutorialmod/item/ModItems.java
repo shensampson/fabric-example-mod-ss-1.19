@@ -15,7 +15,6 @@ public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    // will add folders in asset folder now 4:13 on https://www.youtube.com/watch?v=fQYNhfAwLf8
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
