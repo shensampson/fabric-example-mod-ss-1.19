@@ -14,6 +14,12 @@ public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
+    public static final Item PIKACHU = registerItem("pikachu",
+            new Item(new FabricItemSettings().group(ModItemGroup.POKEMON)));
+
+    public static final Item EEVEE = registerItem("eevee",
+            new Item(new FabricItemSettings().group(ModItemGroup.POKEMON)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
