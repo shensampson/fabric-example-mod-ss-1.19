@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item EEVEE = registerItem("eevee",
             new Item(new FabricItemSettings().group(ModItemGroup.POKEMON)));
 
+    public static final Item MAPLE = registerItem("maple",
+        new Item(new FabricItemSettings().group(ModItemGroup.FAMILY)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }

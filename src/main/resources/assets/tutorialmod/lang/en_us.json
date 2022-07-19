@@ -3,6 +3,7 @@
   "item.tutorialmod.tanzanite": "Tanzanite",
   "item.tutorialmod.pikachu": "Pikachu",
   "item.tutorialmod.eevee": "Eevee",
+  "item.tutorialmod.maple": "Maple",
 
   "block.tutorialmod.tanzanite_block": "Block of Tanzanite",
   "block.tutorialmod.tanzanite_ore": "Tanzanite Ore",
@@ -12,5 +13,6 @@
   "block.tutorialmod.maple_block": "Block of Maple",
 
   "itemGroup.tutorialmod.tanzanite": "Tanzanite Tutorial Tab",
-  "itemGroup.tutorialmod.pokemon": "Pokemon"
+  "itemGroup.tutorialmod.pokemon": "Pokemon",
+  "itemGroup.tutorialmod.family": "Family"
 }

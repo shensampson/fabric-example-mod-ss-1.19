@@ -13,6 +13,11 @@ public class  ModItemGroup {
 
     public static final ItemGroup POKEMON = FabricItemGroupBuilder.build(
             new Identifier(TutorialMod.MOD_ID, "pokemon"), () -> new ItemStack(ModItems.PIKACHU));
+
+    public static final ItemGroup FAMILY = FabricItemGroupBuilder.build(
+            new Identifier(TutorialMod.MOD_ID, "family"), () -> new ItemStack(ModItems.MAPLE));
+
+
     // Identifier(TutorialMod.MOD_ID, path: X) determines the name of the item group
     // It looks for the itemGroup.tutorialmod.X in the .json
     // ItemStack(ModItems.X) determines the image of the item group (so here PIKACHU (or another specific Pokemon must be used, not 'POKEMON')
