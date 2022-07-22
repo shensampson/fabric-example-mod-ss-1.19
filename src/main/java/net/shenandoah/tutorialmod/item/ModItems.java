@@ -2,6 +2,9 @@ package net.shenandoah.tutorialmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shenandoah.tutorialmod.TutorialMod;
@@ -13,6 +16,16 @@ public class ModItems {
 
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+
+    public static final Item TANZANITE_SWORD = registerItem("tanzanite_sword",
+            new SwordItem(ToolMaterials.DIAMOND, 7, 1.6f,
+                    new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+// NOTE: we should create a ModToolMaterial.TANZANITE class see fabric 1.17 kaupenjoe tutorial
+
+    public static final Item GALAXY_PIERCER = registerItem("galaxy_piercer",
+            new SwordItem(ToolMaterials.DIAMOND, 500, 2f,
+                    new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+    // NOTE: we should create a ModToolMaterial.TANZANITE class see fabric 1.17 kaupenjoe tutorial
 
     public static final Item PIKACHU = registerItem("pikachu",
             new Item(new FabricItemSettings().group(ModItemGroup.POKEMON)));
