@@ -17,6 +17,9 @@ public class  ModItemGroup {
     public static final ItemGroup FAMILY = FabricItemGroupBuilder.build(
             new Identifier(TutorialMod.MOD_ID, "family"), () -> new ItemStack(ModItems.MAPLE));
 
+    public static final ItemGroup WEAPONS = FabricItemGroupBuilder.build(
+            new Identifier(TutorialMod.MOD_ID, "weapons"), () -> new ItemStack(ModItems.GALAXY_PIERCER));
+
 
     // Identifier(TutorialMod.MOD_ID, path: X) determines the name of the item group
     // It looks for the itemGroup.tutorialmod.X in the .json
