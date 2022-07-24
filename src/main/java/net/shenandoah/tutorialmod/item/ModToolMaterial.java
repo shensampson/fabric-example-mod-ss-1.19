@@ -7,7 +7,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    TANZANITE(2, 1500, 8.0F, 1.0F, 24, () -> {
+    TANZANITE(2, 605, 7.0F, 2.0F, 15, () -> {
         return Ingredient.ofItems(ModItems.TANZANITE);
     });
 

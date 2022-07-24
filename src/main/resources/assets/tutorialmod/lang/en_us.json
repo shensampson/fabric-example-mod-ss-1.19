@@ -15,8 +15,9 @@
   "block.tutorialmod.taj_block": "Block of Taj",
   "block.tutorialmod.maple_block": "Block of Maple",
 
-  "itemGroup.tutorialmod.tanzanite": "Tanzanite Tutorial Tab",
+  "itemGroup.tutorialmod.tanzanite": "Tanzanite",
   "itemGroup.tutorialmod.pokemon": "Pokemon",
-  "itemGroup.tutorialmod.weapons": "Weapons",
-  "itemGroup.tutorialmod.family": "Family"
+  "itemGroup.tutorialmod.family": "Family",
+  "itemGroup.tutorialmod.weapons": "Weapons"
+
 }

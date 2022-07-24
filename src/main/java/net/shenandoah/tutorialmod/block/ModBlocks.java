@@ -16,7 +16,7 @@ import net.shenandoah.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.TANZANITE);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().strength(5.0F, 5.0F)), ModItemGroup.TANZANITE);
 
     public static final Block TANZANITE_ORE = registerBlock("tanzanite_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.TANZANITE);

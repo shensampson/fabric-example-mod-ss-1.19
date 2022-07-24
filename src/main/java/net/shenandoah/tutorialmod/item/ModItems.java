@@ -16,14 +16,12 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
     public static final Item TANZANITE_SWORD = registerItem("tanzanite_sword",
-            new SwordItem(ModToolMaterial.TANZANITE, 7, 1.6f,
+            new SwordItem(ModToolMaterial.TANZANITE, 5, 1.6f,
                     new FabricItemSettings().group(ModItemGroup.WEAPONS)));
-// NOTE: we should create a ModToolMaterial.TANZANITE class see fabric 1.17 kaupenjoe tutorial
 
     public static final Item GALAXY_PIERCER = registerItem("galaxy_piercer",
             new SwordItem(ModToolMaterial.TANZANITE, 500, 2f,
                     new FabricItemSettings().group(ModItemGroup.WEAPONS)));
-    // NOTE: we should create a ModToolMaterial.TANZANITE class see fabric 1.17 kaupenjoe tutorial
 
     public static final Item PIKACHU = registerItem("pikachu",
             new Item(new FabricItemSettings().group(ModItemGroup.POKEMON)));
